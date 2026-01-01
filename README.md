@@ -5,44 +5,59 @@ A comprehensive collection of SQL scripts for data exploration, analytics, and r
 **Analytics Project: Exploratory & Advanced Data Analysis**
 
 **📌 Project Overview**
+
 This project focuses on Exploratory Data Analysis (EDA) and Advanced Data Analytics using a dataset produced in a prior Data Warehouse project. The goal is to extract insights, identify patterns, and apply analytical techniques on a clean, well-modeled dataset.
 This repository intentionally separates analytics work from data engineering to reflect real-world data workflows and best practices.
 
 **🏗️ Upstream Data Source**
+
 Dataset Origin: Data Warehouse Project
 Repository Link: https://github.com/adisinha7007/DatawarehouseprojectAS
 The dataset used in this project is generated through ETL pipelines, transformations, and schema design implemented in the Data Warehouse project. This analytics project does not recreate or modify the dataset, but consumes it for analysis purposes.
 
 **📊 Dataset Description**
+
 **Domain**: Business Analytics
+
 **Key Tables**
+
 gold.dim_customers
 gold.dim_products
 gold.fact_sales
+
 **Key Metrics & KPIs**
+
 **Customer-Level Metrics (Aggregated)**
+
 Total orders
 Total sales
 Total quantity purchased
 Total products purchased
 Customer lifespan (in months)
+
 **Calculated KPIs:**
+
 Recency (months since last order)
 Average Order Value (AOV)
 Average Monthly Spend
+
 **Product-Level Metrics (Aggregated)**
+
 Total orders
 Total sales
 Total quantity sold
 Total unique customers
 Product lifespan (in months)
+
 **Calculated KPIs:**
+
 Recency (months since last sale)
 Average Order Revenue (AOR)
 Average Monthly Revenue
 ⚠️ Note: The dataset is not stored in this repository to avoid duplication. Please refer to the Data Warehouse project for schema and data generation details.
 
 **🔍 Project Objectives**
+
 Perform Exploratory Data Analysis (EDA)
 Identify trends, anomalies, and patterns
 Engineer analytical features
@@ -50,7 +65,9 @@ Apply advanced analytics techniques
 Generate actionable insights
 
 **🧠 Analytics Performed**
+
 **1️⃣ Exploratory Data Analysis (EDA)**
+
 The EDA phase focuses on understanding the structure, scope, and behavior of the data produced by the Data Warehouse.
 Database Exploration
 Overall structure, tables, schema relationships, and row counts
@@ -62,7 +79,9 @@ Magnitude Exploration
 Scale, volume, and spread of key metrics
 Ranking Analysis
 Top / bottom entities based on key measures
+
 **2️⃣ Advanced Analytics**
+
 This phase focuses on analytical patterns, comparisons, and business-style insights using SQL-based analysis only.
 Change Over Time Analysis
 Trend analysis, growth/decline patterns, period-over-period comparisons using date functions
@@ -109,10 +128,13 @@ Ensure access to the dataset as described in the Data Warehouse project
 Run notebooks/scripts in sequence
 
 **🔗 Related Projects**
+
 Data Warehouse Project: https://github.com/adisinha7007/DatawarehouseprojectAS
+
 This project is part of a broader data lifecycle demonstrating data engineering → analytics → insights.
 
 **📬 Contact**
+
 For questions or collaboration:
 GitHub: https://github.com/adisinha7007
 LinkedIn: https://www.linkedin.com/in/aditi-sinha-339479156
